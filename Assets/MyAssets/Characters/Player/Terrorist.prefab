@@ -16466,7 +16466,7 @@ Transform:
   m_GameObject: {fileID: 3438020386236046204}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -2.220447e-16, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16479,7 +16479,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3438020386236046204}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 347013242dca7c44fb5001793033ea59, type: 3}
   m_Name: 
@@ -17343,10 +17343,11 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 0}
+  InitialWeapon: {fileID: 114922138254092764, guid: 9955d34b7f64583458422590053b3c28,
+    type: 3}
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
-  WeaponAttachment: {fileID: 0}
+  WeaponAttachment: {fileID: 8124923863814789897}
   ProjectileSpawn: {fileID: 0}
   AutomaticallyBindAnimator: 1
   AmmoDisplayID: 0
@@ -18529,7 +18530,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000002235174, y: 0.000000029802319, z: -0.000000009313225,
     w: 1}
-  m_LocalPosition: {x: 0.024, y: 1.318, z: 0.473}
+  m_LocalPosition: {x: 0.14499983, y: 0.955, z: 0.626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19367,8 +19368,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LeftHandTarget: {fileID: 0}
   RightHandTarget: {fileID: 0}
-  AttachLeftHand: 0
-  AttachRightHand: 0
+  AttachLeftHand: 1
+  AttachRightHand: 1
   HeadWeights: {x: 0, y: 1}
 --- !u!114 &3540611448572948477
 MonoBehaviour:
@@ -24336,7 +24337,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: cefb2661e65fc8c4c9c9e8319d6e9912, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
